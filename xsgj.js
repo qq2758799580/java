@@ -248,7 +248,7 @@ obj = {
     "hand" : [
         {
             "ipAddress" : "154.17.18.180",
-            "vip" : "1",
+            "vip" : "0",
             "local" : "LosAngeles",
             "nation" : "usa"
         },
@@ -260,4 +260,4 @@ obj = {
         }
     ]
 };
-$done();
+$done({body: JSON.stringify(obj)});
